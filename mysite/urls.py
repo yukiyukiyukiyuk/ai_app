@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path("http://35.213.92.81/admin/", admin.site.urls),
+    path("admin/", admin.site.urls),
 ]
 """
 
